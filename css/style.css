@@ -1,3 +1,12 @@
+/*@media (min-width: 100px) and (max-width: 575px){
+
+.placer-es {
+	padding-top :10px;
+	padding-bottom: 20px
+}
+
+}	*/								
+
 											/* header starts */
 .header {
   	box-shadow: 0 0 20px #C0C0C0;
@@ -49,7 +58,9 @@ section h1{
 	font-size: 1.5em;
 }
 
-
+.visible-es{
+	display: none;
+}
 
 .chat-hr{
 	margin-top: 50px;
@@ -96,3 +107,27 @@ section h1{
 	padding-top:20px;
 }
 											/* footer ends */
+
+@media (min-width: 100px) and (max-width: 575px){
+
+.visible-es{
+	display: inline;
+	width:80%;
+}
+
+.placer{
+	padding-top :20px;
+	padding-bottom: 20px
+}
+
+.img{
+	padding-top: 50px;
+	padding-bottom: 20px
+}
+
+}
+
+@media (min-width: 100px) and (max-width: 683px){
+
+
+}
