@@ -93,6 +93,7 @@ section h1{
 	display: inline-block;
 	padding-left: 80px;
 	padding-right: 80px;
+	vertical-align: top;
 
 }
 
@@ -128,6 +129,13 @@ section h1{
 }
 
 @media (min-width: 100px) and (max-width: 683px){
+	
+.list-inline li{
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	vertical-align: top;
 
+}
 
 }
