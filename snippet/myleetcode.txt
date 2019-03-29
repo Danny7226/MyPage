@@ -1,0 +1,56 @@
+<div class="container" id ='leetcode'>
+	  <div class="row">
+		<section class="col-sm-5 brand-text2 placer1">
+		<pre class="code"><code class="prettyprint">
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+var twoSum = function(nums, target) {     
+    let res = {};
+    for(let i = 0; i < nums.length; i++){   
+        let tmp = target - nums[i];
+        if(nums[i] in res){
+            return [res[nums[i]],i];
+        }
+        res[tmp] = i;
+    }  
+};
+		</code></pre>
+		</section>
+		<section class="col-sm-7 brand-text2 placer">
+			<div id="scroll">
+				<p>(Scoll down to view more)</p>
+				<h1>1.Two Sum:</h1>
+				<p>Given an array of integers, return indices of the two numbers such that they add up to a specific target.</p>
+				<p>You may assume that each input would have exactly one solution, and you may not use the same element twice.</p>
+				<p>Example:</p>
+				<p>Given nums = [2, 7, 11, 15], target = 9,</p>
+				<p>Because nums[0] + nums[1] = 2 + 7 = 9,</p>
+				<p>return [0, 1].</p>
+
+				<hr class="chat-hr">
+
+				<h1>2.Add Two Numbers:</h1>
+				<p>You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse 
+				order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.</p>
+				<p>You may assume the two numbers do not contain any leading zero, except the number 0 itself.</p>
+				<p>Example:</p>
+				<p>Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)</p>
+				<p>Output: 7 -> 0 -> 8</p>
+				<p>Explanation: 342 + 465 = 807.</p>
+
+				<hr class="chat-hr">
+
+				<h1>3.Longest Substring Without Repeating Characters:</h1>
+				<p>....</p>
+			</div>
+		</section>
+		<hr class = 'visible-es'>
+<!-- 		<hr class="body-hr"> -->
+
+	  </div>
+	  <!-- end row -->
+</div>
+<!-- end of container -->
