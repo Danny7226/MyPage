@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="code-highlight/prettify.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+	<title>Chai's Personal Page</title>
+</head>
+
+<body onload="prettyPrint()">
+<header>
+	  <div class="header">
+		<nav class="navbar navbar-expand-lg navbar-light ">
+		  <a class="navbar-brand brand-text1" href="#">Chai's Personal Page</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  
+		  <div class="collapse navbar-collapse justify-content-end" id="navbarText">
+		    <ul class="navbar-nav brand-text2">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Leetcode</a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+		<!-- end the part of navbar -->
+
+		<div class='brand'>
+			 <div class="text-center brand-text2" id="logo">C.DUO</div>
+		</div>
+		<!-- end the part of Brand -->
+	  </div>
+	  <!-- end the part of box shadow -->
+</header>
+										<!-- style -->
+<style>
+</style>
+
+<div class="container" id ='leetcode'>
+	  <div class="row">
+		<section class="col-sm-5 brand-text2 placer1">
+		<pre class="code"><code class="prettyprint">
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+var twoSum = function(nums, target) {     
+    let res = {};
+    for(let i = 0; i < nums.length; i++){   
+        let tmp = target - nums[i];
+        if(nums[i] in res){
+            return [res[nums[i]],i];
+        }
+        res[tmp] = i;
+    }  
+};
+		</code></pre>
+		</section>
+		<section class="col-sm-7 brand-text2 placer">
+			<div id="scroll">
+				<p>(Scoll down to view more)</p>
+				<h1>1.Two Sum:</h1>
+				<p>Given an array of integers, return indices of the two numbers such that they add up to a specific target.</p>
+				<p>You may assume that each input would have exactly one solution, and you may not use the same element twice.</p>
+				<p>Example:</p>
+				<p>Given nums = [2, 7, 11, 15], target = 9,</p>
+				<p>Because nums[0] + nums[1] = 2 + 7 = 9,</p>
+				<p>return [0, 1].</p>
+
+				<hr class="chat-hr">
+
+				<h1>2.Add Two Numbers:</h1>
+				<p>You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse 
+				order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.</p>
+				<p>You may assume the two numbers do not contain any leading zero, except the number 0 itself.</p>
+				<p>Example:</p>
+				<p>Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)</p>
+				<p>Output: 7 -> 0 -> 8</p>
+				<p>Explanation: 342 + 465 = 807.</p>
+
+				<hr class="chat-hr">
+
+				<h1>3.Longest Substring Without Repeating Characters:</h1>
+				<p>....</p>
+			</div>
+		</section>
+		<hr class = 'visible-es'>
+<!-- 		<hr class="body-hr"> -->
+
+	  </div>
+	  <!-- end row -->
+</div>
+<!-- end of container -->
+
+
+<footer>
+	<hr class='footer-hr'>
+	<div class="footer">
+
+		<div class="text-center">
+			<ul class="list-inline">
+				<li>
+				<a href="https://github.com/Danny7226" target="_blank"><span><img src="./css/image/github.png" height="60px" width="60px"></span></a><br>Github
+				</li>
+
+				<li>
+				<a href="https://www.instagram.com/do_chae/" target="_blank"><span><img src="./css/image/instagram.png" height="60px" width="60px"></span></a><br>Instagram
+				</li>		
+
+				<li>
+				<a href="https://danny7226.github.io/MyPage/" target="_blank"><span><img src="./css/image/pages.png" height="60px" width="60px"></span></a><br>My Page
+				</li>
+
+			</ul>
+		</div>
+		<!-- end the part of self-publicity -->
+
+		<div class="text-center" id='copyright'>&copy; Copyright Chai 2019
+		</div>
+		<!-- end the part of copyright -->
+
+	</div>
+	<!-- footer -->
+</footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="code-highlight/prettify.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
