@@ -4,17 +4,15 @@
 
 
 // let tmp = $.ajax({url:'./snippet/myleetcode.html',async:true});
-// htmlobj=$.ajax({url:"/jquery/test1.txt",async:false})
-console.log('hello');
-// console.log(tmp);
 
 function on_leetcode_click(){
 
 	document.getElementById('button_home').className -= 'active';
 	document.getElementById('button_leetcode').className += ' active';
 	// let tmp = $.ajax(url:'../snippet/myleetcode.html');
-	$('#main-code').load('./snippet/myleetcode.txt');
-
+	// $('#main-code').load('./snippet/myleetcode.txt');
+	document.getElementById('main-code').style.display = 'none';
+	document.getElementById('leetcode').style.display = 'inherit';
 }
 
 var element = document.getElementById('button_leetcode');
