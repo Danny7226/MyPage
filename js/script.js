@@ -16,4 +16,13 @@ function on_contact_click(){
 }
 
 var element = document.getElementById('button_contact');
+
 element.onclick = on_contact_click;
+
+$('.navbar-collapse a').click(function(){
+	$('.navbar-collapse').collapse('hide');
+})
+
+$(window).scroll(function(){
+	$('.navbar-collapse').collapse('hide');
+})
