@@ -26,8 +26,8 @@
 		      <li class="nav-item active"  id='button_home'>
 		        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
 		      </li>
-<!-- 		      <li class="nav-item" id="button_leetcode">
-		        <a class="nav-link" href="#">Leetcode</a> -->
+		      <li class="nav-item" id="button_contact">
+		        <a class="nav-link" href="#">Contact</a>
 		      </li>
 		    </ul>
 		  </div>
@@ -70,54 +70,40 @@
 
 
 
-<div class="container" id ='leetcode'>
+<div class="container" id ='contact'>
 	  <div class="row">
-		<section class="col-sm-5 brand-text2 placer1">
-		<pre class="code"><code class="prettyprint">
-/**
- * @param {number[]} nums
- * @param {number} target
- * @return {number[]}
- */
-var twoSum = function(nums, target) {     
-    let res = {};
-    for(let i = 0; i < nums.length; i++){   
-        let tmp = target - nums[i];
-        if(nums[i] in res){
-            return [res[nums[i]],i];
-        }
-        res[tmp] = i;
-    }  
-};
-		</code></pre>
+
+		<section class="col-sm-6 brand-text2 text-center placer">
+			<img src="./css/image/host.png" class="img" width="50%" id="host"><br><span>Chai Duo (Danny)</span>
 		</section>
-		<section class="col-sm-7 brand-text2 placer">
-			<div id="scroll">
-				<p>(Scoll down to view more)</p>
-				<h1>1.Two Sum:</h1>
-				<p>Given an array of integers, return indices of the two numbers such that they add up to a specific target.</p>
-				<p>You may assume that each input would have exactly one solution, and you may not use the same element twice.</p>
-				<p>Example:</p>
-				<p>Given nums = [2, 7, 11, 15], target = 9,</p>
-				<p>Because nums[0] + nums[1] = 2 + 7 = 9,</p>
-				<p>return [0, 1].</p>
+
+		<section class="col-sm-6 brand-text2 placer">
+
+
+				<h1>Email:</h1>
+				<p>duochai9611@gmail.com</p>
 
 				<hr class="chat-hr">
 
-				<h1>2.Add Two Numbers:</h1>
-				<p>You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse 
-				order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.</p>
-				<p>You may assume the two numbers do not contain any leading zero, except the number 0 itself.</p>
-				<p>Example:</p>
-				<p>Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)</p>
-				<p>Output: 7 -> 0 -> 8</p>
-				<p>Explanation: 342 + 465 = 807.</p>
+				<h1>Instagram:</h1>
+				<p><a href="https://www.instagram.com/do_chae/" target="_blank" style = 'color: #000'>do_chae</a></p>
 
 				<hr class="chat-hr">
 
-				<h1>3.Longest Substring Without Repeating Characters:</h1>
-				<p>....</p>
-			</div>
+				<h1>Weibo:</h1>
+				<p><a href="https://weibo.com/u/6013119642?is_hot=1" target="_blank" style = 'color: #000'>dontASK轶事</a></p>
+
+				<hr class="chat-hr">
+
+				<h1>Github:</h1>
+				<p><a href="https://github.com/Danny7226" target="_blank" style = 'color: #000'>Danny7226</a></p>
+
+				<hr class="chat-hr">
+
+				<h1>WeChat公众号: 迷幻甲方 柴先生</h1>
+				<img src="./css/image/QRcode.jpg" style = 'width: 100px; height: 100px'>
+
+
 		</section>
 		<hr class = 'visible-es'>
 <!-- 		<hr class="body-hr"> -->
@@ -163,6 +149,6 @@ var twoSum = function(nums, target) {
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<script src="code-highlight/prettify.js"></script>
-	<script src="build/script.bundle.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>
