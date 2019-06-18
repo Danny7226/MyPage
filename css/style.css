@@ -35,9 +35,12 @@
 
 
 											/* body starts */
-
-#main-code{
+#home{
 	display: inherit;
+}
+
+#about{
+	display:none;
 }
 
 #contact{
