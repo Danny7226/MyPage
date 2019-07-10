@@ -4,6 +4,6 @@ git push
 
 echo '
 
-AFlex Bulter: Upload-Job DONE, Sir!
+MyPage Bulter: Upload-Job DONE, Sir!
 
 '
