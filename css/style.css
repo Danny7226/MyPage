@@ -35,12 +35,12 @@
 
 
 											/* body starts */
-#home{
+/*#home{
 	display: inherit;
-}
+}*/
 
 #about{
-	display:none;
+	display:inherit;
 }
 
 #contact{
